@@ -1,0 +1,11 @@
+<suite name="Regression Suite" verbose="1">
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="Selenium Tests">
+        <classes>
+         <class name="loginPageTest"/>
+        </classes>
+    </test>
+</suite>

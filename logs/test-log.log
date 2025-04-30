@@ -1,0 +1,148 @@
+Apr 30, 2025 3:16:31 PM utils.LoggerUtil logInfo
+INFO: Setting up the test environment
+Apr 30, 2025 3:16:34 PM utils.LoggerUtil logInfo
+INFO: Testing registration with an already registered email
+Apr 30, 2025 3:16:49 PM utils.LoggerUtil logInfo
+INFO: Duplicate email error displayed: true
+Apr 30, 2025 3:16:49 PM utils.LoggerUtil logInfo
+INFO: cleaning up the driver
+Apr 30, 2025 3:18:14 PM utils.LoggerUtil logInfo
+INFO: Setting up the test environment
+Apr 30, 2025 3:18:19 PM utils.LoggerUtil logInfo
+INFO: Testing registration with an already registered email
+Apr 30, 2025 3:18:30 PM utils.LoggerUtil logInfo
+INFO: Duplicate email error displayed: true
+Apr 30, 2025 3:18:30 PM utils.LoggerUtil logInfo
+INFO: cleaning up the driver
+Apr 30, 2025 3:22:34 PM utils.LoggerUtil logInfo
+INFO: Setting up the test environment
+Apr 30, 2025 3:22:37 PM utils.LoggerUtil logInfo
+INFO: Testing registration with an already registered email
+Apr 30, 2025 3:22:46 PM utils.LoggerUtil logInfo
+INFO: Duplicate email error displayed: true
+Apr 30, 2025 3:22:46 PM utils.LoggerUtil logInfo
+INFO: cleaning up the driver
+Apr 30, 2025 3:24:05 PM utils.LoggerUtil logInfo
+INFO: Setting up the test environment
+Apr 30, 2025 3:24:08 PM utils.LoggerUtil setCurrentTest
+INFO: Setting current test: loginTest
+Apr 30, 2025 3:24:08 PM utils.LoggerUtil logInfo
+INFO: Starting login test...
+Apr 30, 2025 3:24:11 PM utils.LoggerUtil logInfo
+INFO: Navigated to Login Page
+Apr 30, 2025 3:24:13 PM utils.LoggerUtil logInfo
+INFO: Login completed with configured credentials.
+Apr 30, 2025 3:24:13 PM utils.LoggerUtil logInfo
+INFO: cleaning up the driver
+Apr 30, 2025 3:24:13 PM utils.LoggerUtil logInfo
+INFO: Setting up the test environment
+Apr 30, 2025 3:24:14 PM utils.LoggerUtil setCurrentTest
+INFO: Setting current test: loginWithIncorrectCreds
+Apr 30, 2025 3:24:14 PM utils.LoggerUtil logInfo
+INFO: Testing login with incorrect credentials: IncorrectEmail@email.com
+Apr 30, 2025 3:24:29 PM utils.LoggerUtil logInfo
+INFO: Error message displayed: true
+Apr 30, 2025 3:24:29 PM utils.LoggerUtil logInfo
+INFO: cleaning up the driver
+Apr 30, 2025 3:24:29 PM utils.LoggerUtil logInfo
+INFO: Setting up the test environment
+Apr 30, 2025 3:24:30 PM utils.LoggerUtil setCurrentTest
+INFO: Setting current test: logoutTest
+Apr 30, 2025 3:24:30 PM utils.LoggerUtil logInfo
+INFO: Starting logout test...
+Apr 30, 2025 3:24:44 PM utils.LoggerUtil logInfo
+INFO: Logout status - Login button visible: true
+Apr 30, 2025 3:24:44 PM utils.LoggerUtil logInfo
+INFO: cleaning up the driver
+Apr 30, 2025 3:24:45 PM utils.LoggerUtil logInfo
+INFO: Setting up the test environment
+Apr 30, 2025 3:24:46 PM utils.LoggerUtil setCurrentTest
+INFO: Setting current test: registerUser
+Apr 30, 2025 3:24:46 PM utils.LoggerUtil logInfo
+INFO: Starting registration test with email: john@example.com
+Apr 30, 2025 3:24:52 PM utils.LoggerUtil logInfo
+INFO: User registration completed for: john@example.com
+Apr 30, 2025 3:24:52 PM utils.LoggerUtil logInfo
+INFO: cleaning up the driver
+Apr 30, 2025 3:24:52 PM utils.LoggerUtil logInfo
+INFO: Setting up the test environment
+Apr 30, 2025 3:24:53 PM utils.LoggerUtil setCurrentTest
+INFO: Setting current test: registerUser
+Apr 30, 2025 3:24:53 PM utils.LoggerUtil logInfo
+INFO: Starting registration test with email: jane@example.com
+Apr 30, 2025 3:24:57 PM utils.LoggerUtil logInfo
+INFO: User registration completed for: jane@example.com
+Apr 30, 2025 3:24:57 PM utils.LoggerUtil logInfo
+INFO: cleaning up the driver
+Apr 30, 2025 3:24:57 PM utils.LoggerUtil logInfo
+INFO: Setting up the test environment
+Apr 30, 2025 3:24:58 PM utils.LoggerUtil setCurrentTest
+INFO: Setting current test: registerUserWithSameEmail
+Apr 30, 2025 3:24:58 PM utils.LoggerUtil logInfo
+INFO: Testing registration with an already registered email
+Apr 30, 2025 3:25:13 PM utils.LoggerUtil logInfo
+INFO: Duplicate email error displayed: true
+Apr 30, 2025 3:25:13 PM utils.LoggerUtil logInfo
+INFO: cleaning up the driver
+Apr 30, 2025 3:27:24 PM utils.LoggerUtil logInfo
+INFO: Setting up the test environment
+Apr 30, 2025 3:27:28 PM utils.LoggerUtil setCurrentTest
+INFO: Setting current test: loginTest
+Apr 30, 2025 3:27:28 PM utils.LoggerUtil logInfo
+INFO: Starting login test...
+Apr 30, 2025 3:27:35 PM utils.LoggerUtil logInfo
+INFO: Navigated to Login Page
+Apr 30, 2025 3:27:36 PM utils.LoggerUtil logInfo
+INFO: Login completed with configured credentials.
+Apr 30, 2025 3:27:36 PM utils.LoggerUtil logInfo
+INFO: cleaning up the driver
+Apr 30, 2025 3:27:36 PM utils.LoggerUtil logInfo
+INFO: Setting up the test environment
+Apr 30, 2025 3:27:37 PM utils.LoggerUtil setCurrentTest
+INFO: Setting current test: loginWithIncorrectCreds
+Apr 30, 2025 3:27:37 PM utils.LoggerUtil logInfo
+INFO: Testing login with incorrect credentials: IncorrectEmail@email.com
+Apr 30, 2025 3:27:45 PM utils.LoggerUtil logInfo
+INFO: Error message displayed: true
+Apr 30, 2025 3:27:45 PM utils.LoggerUtil logInfo
+INFO: cleaning up the driver
+Apr 30, 2025 3:27:45 PM utils.LoggerUtil logInfo
+INFO: Setting up the test environment
+Apr 30, 2025 3:27:46 PM utils.LoggerUtil setCurrentTest
+INFO: Setting current test: logoutTest
+Apr 30, 2025 3:27:46 PM utils.LoggerUtil logInfo
+INFO: Starting logout test...
+Apr 30, 2025 3:28:07 PM utils.LoggerUtil logInfo
+INFO: Logout status - Login button visible: true
+Apr 30, 2025 3:28:07 PM utils.LoggerUtil logInfo
+INFO: cleaning up the driver
+Apr 30, 2025 3:28:07 PM utils.LoggerUtil logInfo
+INFO: Setting up the test environment
+Apr 30, 2025 3:28:08 PM utils.LoggerUtil setCurrentTest
+INFO: Setting current test: registerUser
+Apr 30, 2025 3:28:08 PM utils.LoggerUtil logInfo
+INFO: Starting registration test with email: john@example.com
+Apr 30, 2025 3:28:17 PM utils.LoggerUtil logInfo
+INFO: User registration completed for: john@example.com
+Apr 30, 2025 3:28:17 PM utils.LoggerUtil logInfo
+INFO: cleaning up the driver
+Apr 30, 2025 3:28:17 PM utils.LoggerUtil logInfo
+INFO: Setting up the test environment
+Apr 30, 2025 3:28:19 PM utils.LoggerUtil setCurrentTest
+INFO: Setting current test: registerUser
+Apr 30, 2025 3:28:19 PM utils.LoggerUtil logInfo
+INFO: Starting registration test with email: jane@example.com
+Apr 30, 2025 3:28:23 PM utils.LoggerUtil logInfo
+INFO: User registration completed for: jane@example.com
+Apr 30, 2025 3:28:23 PM utils.LoggerUtil logInfo
+INFO: cleaning up the driver
+Apr 30, 2025 3:28:23 PM utils.LoggerUtil logInfo
+INFO: Setting up the test environment
+Apr 30, 2025 3:28:24 PM utils.LoggerUtil setCurrentTest
+INFO: Setting current test: registerUserWithSameEmail
+Apr 30, 2025 3:28:24 PM utils.LoggerUtil logInfo
+INFO: Testing registration with an already registered email
+Apr 30, 2025 3:28:40 PM utils.LoggerUtil logInfo
+INFO: Duplicate email error displayed: true
+Apr 30, 2025 3:28:40 PM utils.LoggerUtil logInfo
+INFO: cleaning up the driver
