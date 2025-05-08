@@ -1,0 +1,23 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*' # Triggers for any tag that starts with 'v'
+
+jobs:
+  changelog:
+    name: Update Changelog
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Release-please action to generate/update changelog and prepare release notes
+      - name: Release Please
+        uses: google-github-actions/release-please-action@v4
+        with:
+          release-type: 'simple'   # 'simple' is suitable for most projects; you can also use 'node' for Node.js projects, etc.
+          changelog-file: 'CHANGELOG.md'   # Path to your changelog file (default is 'CHANGELOG.md')
+          versioning-strategy: 'auto'  # Automatically detect versioning based on commits
