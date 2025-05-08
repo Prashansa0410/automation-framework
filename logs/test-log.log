@@ -146,3 +146,110 @@ Apr 30, 2025 3:28:40 PM utils.LoggerUtil logInfo
 INFO: Duplicate email error displayed: true
 Apr 30, 2025 3:28:40 PM utils.LoggerUtil logInfo
 INFO: cleaning up the driver
+May 08, 2025 6:14:26 PM utils.LoggerUtil logInfo
+INFO: Setting up the test environment
+May 08, 2025 6:14:29 PM utils.LoggerUtil setCurrentTest
+INFO: Setting current test: loginTest
+May 08, 2025 6:14:29 PM utils.LoggerUtil logInfo
+INFO: Starting login test...
+May 08, 2025 6:14:30 PM utils.LoggerUtil logInfo
+INFO: Navigated to Login Page
+May 08, 2025 6:14:41 PM utils.LoggerUtil logError
+SEVERE: Test failed: loginTest - Expected condition failed: waiting for utils.WaitUtils$$Lambda$680/0x00000008003bf6e0@3cf7298d (tried for 10 second(s) with 500 milliseconds interval)
+May 08, 2025 6:14:41 PM utils.LoggerUtil logInfo
+INFO: cleaning up the driver
+May 08, 2025 6:14:41 PM utils.LoggerUtil logInfo
+INFO: Setting up the test environment
+May 08, 2025 6:14:42 PM utils.LoggerUtil setCurrentTest
+INFO: Setting current test: loginWithIncorrectCreds
+May 08, 2025 6:14:42 PM utils.LoggerUtil logInfo
+INFO: Testing login with incorrect credentials: IncorrectEmail@email.com
+May 08, 2025 6:14:51 PM utils.LoggerUtil logError
+SEVERE: Test failed: loginWithIncorrectCreds - Error communicating with the remote browser. It may have died.
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1.1', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09ec8c8896c4196576230a4d39fc74e5, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.116, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: /var/folders/x1/7dsd4bt556b...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50601}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50601/devtoo..., se:cdpVersion: 135.0.7049.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09ec8c8896c4196576230a4d39fc74e5
+May 08, 2025 6:14:51 PM utils.LoggerUtil logException
+SEVERE: Error communicating with the remote browser. It may have died.
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1.1', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09ec8c8896c4196576230a4d39fc74e5, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.116, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: /var/folders/x1/7dsd4bt556b...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50601}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50601/devtoo..., se:cdpVersion: 135.0.7049.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09ec8c8896c4196576230a4d39fc74e5
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1.1', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09ec8c8896c4196576230a4d39fc74e5, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.116, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: /var/folders/x1/7dsd4bt556b...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50601}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50601/devtoo..., se:cdpVersion: 135.0.7049.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09ec8c8896c4196576230a4d39fc74e5
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334)
+	at listeners.TestListener.captureScreenshot(TestListener.java:90)
+	at listeners.TestListener.onTestFailure(TestListener.java:53)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:774)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:496)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:383)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:573)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:455)
+	... 8 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1047)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	... 3 more
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 9 more
+
+May 08, 2025 6:14:51 PM utils.LoggerUtil logInfo
+INFO: cleaning up the driver
